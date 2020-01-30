@@ -20,7 +20,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux_2x1(
-
-    );
+module mux_2x1(input s, i1, i0, output out);
+    wire not_s, a1, a0;
+    not(not_s, s);
+    and(a0, not_s, a0);
+    and(a1, s, i1);
+    or(out, a0, a1);
 endmodule
