@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab1.srcs/sources_1/imports/Lab1_Prelab.srcs/sources_1/new/add_sub.v" \
+"../../../../Lab1.srcs/sources_1/imports/Lab1_Prelab.srcs/sources_1/new/add_sub_4bit.v" \
+"../../../../Lab1.srcs/sources_1/imports/Lab1_Prelab.srcs/sources_1/new/fulladder.v" \
+"../../../../Lab1.srcs/sources_1/imports/Lab1_Prelab.srcs/sources_1/new/mux_2x1.v" \
+"../../../../Lab1.srcs/sim_1/imports/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
