@@ -33,12 +33,12 @@ module test();
 //  Op= 0 is +, 1 is -
     initial
         begin
-        a = 15; b = 5;  Op = 1;
-#1      a = 15; b = 5;  Op = 0;
-#1      a = 7;  b = 8;  Op = 0;
-#1      a = 5;  b = 10; Op = 1;
-#1      a = 15; b = 15; Op = 0;
-#1      a = 6;  b = 10; Op = 1;
-#1      a = 1;  b = 3;  Op = 1;
+        a = 3 ; b = 2 ; Op = 0;
+#1      a = 7 ; b = 5 ; Op = 1;
+#1      a = -1; b = -5; Op = 0;
+#1      a = 3 ; b = 2 ; Op = 1;
+#1      a = -3; b = -2; Op = 1;
+#1      a = -8; b = 2 ; Op = 1;
+#1      a = 5 ; b = 5 ; Op = 0;
         end
 endmodule

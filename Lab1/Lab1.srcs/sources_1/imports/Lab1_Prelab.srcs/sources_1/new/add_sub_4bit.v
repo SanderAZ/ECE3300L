@@ -21,7 +21,7 @@
 
 
 module add_sub_4bit(input[3:0] a, b, input op, output[3:0] r, output Cout, Ov);
-    wire[8:1] q;
+    wire[8:1] q; // [8:1] is used to follow the labelling of the image provided in the GitHub repository
     
 //  add_sub    (x,    y,    Sub_in, Cin,  r,    Sub_out, Cout)
     add_sub as3(a[3], b[3], op,     q[7], r[3], q[1],    q[8]);
