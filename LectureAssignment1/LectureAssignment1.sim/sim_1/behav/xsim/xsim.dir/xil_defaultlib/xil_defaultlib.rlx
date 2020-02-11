@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.srcs/sim_1/new/sim1.v,1581283311,verilog,,,,sim1,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.srcs/sources_1/imports/new/fulladder.v,1581363996,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.srcs/sources_1/new/signedmultiplier.v,,fulladder,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.srcs/sources_1/new/signedmultiplier.v,1581284784,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment1/LectureAssignment1.srcs/sim_1/new/sim1.v,,signedmultiplier,,,,,,,,
