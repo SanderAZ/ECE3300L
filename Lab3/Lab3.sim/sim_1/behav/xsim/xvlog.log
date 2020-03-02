@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab3/Lab3.srcs/sources_1/new/bcd_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab3/Lab3.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
