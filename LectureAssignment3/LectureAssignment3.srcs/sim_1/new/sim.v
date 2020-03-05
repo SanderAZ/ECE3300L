@@ -21,12 +21,23 @@
 
 
 module sim();
-    reg clk, s;
+    reg clk = 0, s = 0;
     wire[9:0] Q;
     
- // periodmeter    (clk, s, count)
+//  periodmeter    (clk, s, count)
     periodmeter uut(clk, s, Q);
     
-    localparam period = 10;
-    
+    localparam period = 4'b1010;
+    initial
+        begin
+        forever #(period/2) clk = ~clk;
+        end
+    initial
+        begin
+        repeat(8) begin #(period * 50) s <= ~s; end
+        #100
+        repeat(8) begin #(period * 250) s <= ~s; end
+        #100
+        repeat(8) begin #(period * 500) s <= ~s; end
+        end
 endmodule

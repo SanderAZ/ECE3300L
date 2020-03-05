@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment3/LectureAssignment3.srcs/sources_1/new/periodmeter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module periodmeter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/LectureAssignment3/LectureAssignment3.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
