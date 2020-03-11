@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab5/Lab5.srcs/sources_1/new/displayinterface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displayinterface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab5/Lab5.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
