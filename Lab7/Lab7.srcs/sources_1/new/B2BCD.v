@@ -30,12 +30,12 @@ reg[1:0] S = 0;
 //State Machine
 always @ (posedge clk)
     case(S)
-    0: begin S = 1; C[3] = 1; C[2] = 0; C[1] = 0; C[0] = 0; end
+    0:  begin S = 1; C = 4'b1000; end
     1: if(Z == 1)
-        begin S = 0; C[3] = 0; C[2] = 0; C[1] = 0; C[0] = 1; end
+        begin S = 0; C = 4'b0001; end
        else
-        begin S = 2; C[3] = 0; C[2] = 0; C[1] = 1; C[0] = 0; end
-    2: begin S = 1; C[3] = 0; C[2] = 1; C[1] = 0; C[0] = 0; end
+        begin S = 2; C = 4'b0010; end
+    2:  begin S = 1; C = 4'b0100; end
     default: S = 0;
     endcase
 
