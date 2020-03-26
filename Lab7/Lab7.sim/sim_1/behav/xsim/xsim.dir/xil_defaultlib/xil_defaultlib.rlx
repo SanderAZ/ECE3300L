@@ -3,5 +3,8 @@
 Nov  6 2019
 21:57:16
 D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/boardtest.v,1584665602,verilog,,,,boardtest,,,,,,,,
 D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/sim.v,1584611524,verilog,,,,sim,,,,,,,,
-D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/B2BCD.v,1584613686,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/sim.v,,B2BCD,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/imports/new/displayinterface.v,1584054444,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/top.v,,displayinterface,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/B2BCD.v,1584663895,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/imports/new/displayinterface.v,,B2BCD,,,,,,,,
+D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/top.v,1584665514,verilog,,D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/boardtest.v,,top,,,,,,,,

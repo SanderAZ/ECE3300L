@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module B2BCD(input clk, input [11:0]B, output reg[15:0] BCD);
+module B2BCD(input clock, input [11:0]B, output reg[15:0] BCD);
 wire Z;
 reg[11:0] R = 0;
 reg[3:0]C, DC = 12;
@@ -28,7 +28,7 @@ reg[3:0] D0 = 0, D1 = 0, D2 = 0, D3 = 0;
 reg[1:0] S = 0;
 
 //State Machine
-always @ (posedge clk)
+always @ (posedge clock)
     case(S)
     0:  begin S = 1; C = 4'b1000; end
     1: if(Z == 1)
@@ -40,24 +40,20 @@ always @ (posedge clk)
     endcase
 
 //Down Counter
-always @ (posedge clk)
+always @ (posedge clock)
     begin
-    if(C[3]) DC <= 12;
+    if(C[3]) DC <=  12;
     if(C[2]) DC <= DC - 1;
     end
 assign Z = (DC == 0);
 
-//Register
-always @ (posedge clk)
-    if(C[3]) R <= B;
-
 //Shift Registers
-always @ (posedge clk)
+always @ (posedge clock)
     begin
     if(C[2])
-        {D3, D2, D1, D0, R} = {D3, D2, D1, D0, R} << 1;
+        {D3, D2, D1, D0, R} <= {D3, D2, D1, D0, R} << 1;
     if(C[3])
-        {D3, D2, D1, D0} <= 16'd0;
+        {D3, D2, D1, D0, R} <= {16'd0, B};
     if(D0 > 4 && C[1]) D0 <= D0 + 3;
     if(D1 > 4 && C[1]) D1 <= D1 + 3;
     if(D2 > 4 && C[1]) D2 <= D2 + 3;

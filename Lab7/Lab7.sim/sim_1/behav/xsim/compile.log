@@ -1,4 +1,8 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/B2BCD.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module B2BCD
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/sim.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/imports/new/displayinterface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module displayinterface
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/Sander/Documents/GitHub/ECE3300L/Lab7/Lab7.srcs/sim_1/new/boardtest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boardtest
